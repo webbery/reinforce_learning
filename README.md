@@ -15,3 +15,5 @@
 | [DPG](policy/05-DPG-Pendulum.ipynb) | Pendulum-v1  | 两层Linear+一层Output | ReplayBuffer | 连续动作空间 |
 | [Reinforce](policy/05-reinforce-Pendulum.ipynb) | Pendulum-v1  | 两层Linear+一层Output | ReplayBuffer | 连续动作空间 |
 | [TD3](policy/06-TD3-Pendulum.ipynb) | Pendulum-v1  | 两层Linear+一层Output | ReplayBuffer/目标网络/截断双Q学习/目标策略网络中加入噪声 | 连续动作空间 |
+
+最后提供了一个强化学习仿真器示例[BreakEnv](BreakEnv.py)，支持录制视频。该示例主要用于高精地图车道组打断，但奖励算法没有全部完成，仅供参考学习
